@@ -44,3 +44,18 @@ docker run --rm \
         ugeek/emacs "$@"
 
 ```
+### Añade el alias
+Para lanzar desde la terminal spacemacs
+
+```
+alias spacemacs='bash ~/dotfile/emacs/spacemacs.sh'
+```
+
+### Añadir enlace simbólico
+
+```
+ln -s ~/Org ~/spacemacs/Org
+```
+
+
+
