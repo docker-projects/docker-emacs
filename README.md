@@ -53,9 +53,13 @@ alias spacemacs='bash ~/dotfile/emacs/spacemacs.sh'
 
 ### Añadir enlace simbólico
 
+Creando la carpeta Org, en ~/spacemacs mediante el enlace simbolico
+
 ```
 ln -s ~/Org ~/spacemacs/Org
 ```
 
-
-
+Borrando el enlace
+```
+rm ~/spacemacs/Org
+```
