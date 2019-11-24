@@ -1,3 +1,5 @@
+#!/bin/bash
+set -e
 
 docker run --rm \                                            
         -u $(id -u):$(id -g) \
